@@ -1,243 +1,424 @@
-<!-- markdownlint-disable MD033 -->
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text">
 
-<!-- markdownlint-disable MD041 -->
+<p align="center" dir="auto">
+    </p><div class="markdown-heading" dir="auto"><h1 align="center" tabindex="-1" class="heading-element" dir="auto">
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/YiVal/YiVal/assets/1544154/b0c681e7-7474-4b87-9c69-fde6e0e47401"><img src="https://github.com/YiVal/YiVal/assets/1544154/b0c681e7-7474-4b87-9c69-fde6e0e47401" alt="伊瓦尔标志" width="100" height="100" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        伊瓦尔
+    </font></font></h1><a id="user-content-----------------yival----" class="anchor" aria-label="永久链接： YiVal
+    " href="#----------------yival----"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+     <p align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">⚡ 自动提示 ⚡</font></font></p>
+<p dir="auto"></p>
 
-<p align="center">
-    <h1 align="center">
-        <img src="https://github.com/YiVal/YiVal/assets/1544154/b0c681e7-7474-4b87-9c69-fde6e0e47401"
-         alt="YiVal Logo" width="100"
-        height="100" style="vertical-align: middle;">
-        YiVal
-    </h1>
-     <p align="center">⚡ Auto Prompting ⚡</p>
-</p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 关注我们：</font></font><a href="https://twitter.com/yivalloveaigc" rel="nofollow"><img src="https://camo.githubusercontent.com/3d37528769cef123af899736b6b35c9fdde6293160fd14c2423abf425de835bd/68747470733a2f2f696d672e736869656c64732e696f2f747769747465722f75726c2f68747470732f747769747465722e636f6d2f596956616c61692e7376673f7374796c653d736f6369616c266c6162656c3d466f6c6c6f77253230253430596956616c" alt="推特" data-canonical-src="https://img.shields.io/twitter/url/https/twitter.com/YiValai.svg?style=social&amp;label=Follow%20%40YiVal" style="max-width: 100%;"></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|
+</font></font><a href="https://discord.gg/HnUWVW4kth" rel="nofollow"><img src="https://camo.githubusercontent.com/9cdea702fe277972fb2bf1ed34dc362121c2949d9b209e6a6bd715e6a7658ba4/68747470733a2f2f646362616467652e76657263656c2e6170702f6170692f7365727665722f486e55575657346b74683f636f6d706163743d74727565267374796c653d666c6174" alt="不和谐" data-canonical-src="https://dcbadge.vercel.app/api/server/HnUWVW4kth?compact=true&amp;style=flat" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👉 由 Discord AIGC 社区赞助：
+</font></font><a href="https://discord.gg/aigc" rel="nofollow"><img src="https://camo.githubusercontent.com/5aff84107ae1f98aa0957d19813a0553f48e1ed278ce9530956548a29e0e4139/68747470733a2f2f646362616467652e76657263656c2e6170702f6170692f7365727665722f616967633f636f6d706163743d74727565267374796c653d666c6174" alt="不和谐" data-canonical-src="https://dcbadge.vercel.app/api/server/aigc?compact=true&amp;style=flat" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://opensource.org/licenses/MIT" rel="nofollow"><img src="https://camo.githubusercontent.com/c54b64d2ed0592e4679217f90902c382543742f2f596a2e5944d5929d4a69870/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4c6963656e73652d417061636865322e302d79656c6c6f772e737667" alt="许可证：麻省理工学院" data-canonical-src="https://img.shields.io/badge/License-Apache2.0-yellow.svg" style="max-width: 100%;"></a>
+<a href="https://star-history.com/#YiVal/YiVal" rel="nofollow"><img src="https://camo.githubusercontent.com/b9eff59f0145301623ef6bb8e28500764650aa3cf5d373393d588e282ed14e66/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f73746172732f596956616c2f596956616c3f7374796c653d736f6369616c" alt="GitHub 星图" data-canonical-src="https://img.shields.io/github/stars/YiVal/YiVal?style=social" style="max-width: 100%;"></a>
+<a href="https://github.com/YiVal/YiVal/issues"><img src="https://camo.githubusercontent.com/28918898596f23e5f811151f89c1be2cd395902fc167d18c4919f52237ff1b86/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7261772f596956616c2f596956616c" alt="开放式问题" data-canonical-src="https://img.shields.io/github/issues-raw/YiVal/YiVal" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal是什么？</font></font></h2><a id="user-content-what-is-yival" class="anchor" aria-label="永久链接： YiVal 是什么？" href="#what-is-yival"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal：GenAI 应用程序的自动提示工程助手</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+YiVal 是一款最先进的工具，旨在简化 GenAI 应用程序提示和</font><font style="vertical-align: inherit;">循环中</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">任何</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置的调整过程。有了 YiVal，手动调整已成为过去。这种</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以数据驱动和以评估为中心的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法可确保最佳提示、精确的 RAG 配置和微调的模型参数。使用 YiVal</font><font style="vertical-align: inherit;">使您的应用程序能够轻松实现
+</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增强的结果、减少延迟并</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+最大限度地降低推理成本！</font></font></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal 试图解决的问题：</font></font></strong></p>
+<ol dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提示开发挑战：“我无法创建更好的提示。我当前的提示得分 60 分根本没有帮助🤔。”</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微调难度：“我不知道如何微调；术语和无数的微调算法让人不知所措😵。”</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">信心和可扩展性：“我从 Langchain 和 LlamaIndex 学习了构建代理的教程，但我做得对吗？当我启动时，机器人会消耗我的钱吗？用户会喜欢我的 GenAI 应用程序🤯吗？”</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型和数据漂移：“模型和数据不断变化；我担心现在表现良好的 GenAI 应用程序可能会在以后失败😰。”</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关指标和评估者：“对于我的用例，我应该关注哪些指标和评估者📊？”</font></font></li>
+</ol>
+<p dir="auto"><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/tutorial.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看我们的快速入门指南！</font></font></a></p>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/1544154/272429432-dba5acd9-995c-45fd-9d08-c7cf198a77ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNDA4MjgsIm5iZiI6MTcxMjA0MDUyOCwicGF0aCI6Ii8xNTQ0MTU0LzI3MjQyOTQzMi1kYmE1YWNkOS05OTVjLTQ1ZmQtOWQwOC1jN2NmMTk4YTc3YWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MDJUMDY0ODQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmUxZDA0NDA4MTIzNmIzYzI2YjIwZjA3M2I3ZTc5NDI5Yzc4NWQyN2Q0OWM1MjYyZjhlZDJhMDUzYjg1MmRmNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.G6YZz-menxNCEiSADKpQ2V-H-mPcrMKcFcuguIYlNTY"><img src="https://private-user-images.githubusercontent.com/1544154/272429432-dba5acd9-995c-45fd-9d08-c7cf198a77ad.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNDA4MjgsIm5iZiI6MTcxMjA0MDUyOCwicGF0aCI6Ii8xNTQ0MTU0LzI3MjQyOTQzMi1kYmE1YWNkOS05OTVjLTQ1ZmQtOWQwOC1jN2NmMTk4YTc3YWQucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDQwMiUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA0MDJUMDY0ODQ4WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZmUxZDA0NDA4MTIzNmIzYzI2YjIwZjA3M2I3ZTc5NDI5Yzc4NWQyN2Q0OWM1MjYyZjhlZDJhMDUzYjg1MmRmNiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.G6YZz-menxNCEiSADKpQ2V-H-mPcrMKcFcuguIYlNTY" style="max-width: 100%;"></a></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示链接</font></font></h3><a id="user-content-link-to-demo" class="anchor" aria-label="永久链接：演示链接" href="#link-to-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><strong><a href="http://ec2-35-85-28-134.us-west-2.compute.amazonaws.com:8074/enhancer-experiment-results" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tiktok 标题自动调整</font></font></a></strong></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Docker运行时</font></font></h3><a id="user-content-docker-runtime" class="anchor" aria-label="永久链接：Docker 运行时" href="#docker-runtime"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Docker 并在 DockerHub 上拉取我们的镜像：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker pull yival/release:latest</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker pull yival/release:latest" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行我们的图像：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker run --it yival/release:latest</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker run --it yival/release:latest" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">建议使用带有 Docker 扩展的 VSCode 来运行和开发。如果您是使用 GPU 和 Pytorch 的开发人员，或者需要 jupyter 实验室进行数据科学：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>docker pull yival/release:cu12_torch_jupyter
+docker run --gpus all --it -p 8888:8888 yival/release:cu12_torch_jupyter</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="docker pull yival/release:cu12_torch_jupyter
+docker run --gpus all --it -p 8888:8888 yival/release:cu12_torch_jupyter" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">先决条件</font></font></h3><a id="user-content-prerequisites" class="anchor" aria-label="永久链接：先决条件" href="#prerequisites"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Python 版本</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：确保您已安装</font></font><code>Python 3.10</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或稍后安装。</font></font></li>
+<li><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAI API 密钥</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：从 OpenAI 获取 API 密钥。获得密钥后，将其设置为名为 的环境变量</font></font><code>OPENAI_API_KEY</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装方法</font></font></h3><a id="user-content-installation-methods" class="anchor" aria-label="永久链接：安装方法" href="#installation-methods"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 pip（推荐用户）</font></font></h4><a id="user-content-using-pip-recommended-for-users" class="anchor" aria-label="永久链接：使用 pip（推荐给用户）" href="#using-pip-recommended-for-users"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><code>yival</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">直接使用pip</font><font style="vertical-align: inherit;">安装包：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install yival</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install yival" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h4 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用诗歌进行开发设置</font></font></h4><a id="user-content-development-setup-using-poetry" class="anchor" aria-label="永久链接：使用诗歌进行开发设置" href="#development-setup-using-poetry"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想做出贡献或建立开发环境：</font></font></p>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Poetry</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：如果您还没有安装 Poetry ，</font></font><a href="https://python-poetry.org/docs/#installation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请安装 Poetry</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆存储库，或使用 CodeSpace</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.1</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用CodeSpace</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+获取YiVal 环境的最简单方法。单击下面以使用 GitHub Codespace，然后转到下一步。</font></font></p>
+<p dir="auto"><a href="https://codespaces.new/YiVal/YiVal?quickstart=1" rel="nofollow"><img src="https://github.com/codespaces/badge.svg" alt="在 GitHub Codespaces 中打开" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.2</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆存储库</font></font></strong></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>git clone https://github.com/YiVal/YiVal.git
+<span class="pl-c1">cd</span> YiVal</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/YiVal/YiVal.git
+cd YiVal" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 Poetry 设置</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：初始化 Python 虚拟环境并使用 Poetry 安装依赖项。确保在</font></font><code>/YiVal</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">目录中运行以下 cmd：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>poetry install --sync</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="poetry install --sync" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+</ol>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">尝试 YiVal</font></font></h2><a id="user-content-trying-out-yival" class="anchor" aria-label="永久链接：尝试 YiVal" href="#trying-out-yival"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置完成后，您可以通过生成随机科技初创公司名称的数据集来快速开始使用 YiVal。</font></font></p>
+<div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">运行您的第一个 YiVal 程序的步骤</font></font></h3><a id="user-content-steps-to-run-your-first-yival-program" class="anchor" aria-label="永久链接：运行第一个 YiVal 程序的步骤" href="#steps-to-run-your-first-yival-program"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ol dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">导航到 yival 目录</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-c1">cd</span> /YiVal/src/yival</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="cd /YiVal/src/yival" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置 OpenAI API 密钥</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：替换</font></font><code>$YOUR_OPENAI_API_KEY</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您实际的 OpenAI API 密钥。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 macOS 或 Linux 系统上，</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">export</span> OPENAI_API_KEY=<span class="pl-smi">$YOUR_OPENAI_API_KEY</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="export OPENAI_API_KEY=$YOUR_OPENAI_API_KEY" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在 Windows 系统上，</font></font></p>
+<div class="highlight highlight-source-powershell notranslate position-relative overflow-auto" dir="auto"><pre>setx OPENAI_API_KEY <span class="pl-smi">$YOUR_OPENAI_API_KEY</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="setx OPENAI_API_KEY $YOUR_OPENAI_API_KEY" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">定义 YiVal 配置</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：创建一个名为</font></font><code>config_data_generation.yml</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动测试数据集生成的配置文件，其中包含以下内容：</font></font></p>
+<div class="highlight highlight-source-yaml notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-ent">description</span>: <span class="pl-s">Generate test data</span>
+<span class="pl-ent">dataset</span>:
+  <span class="pl-ent">data_generators</span>:
+    <span class="pl-ent">openai_prompt_data_generator</span>:
+      <span class="pl-ent">chunk_size</span>: <span class="pl-c1">100000</span>
+      <span class="pl-ent">diversify</span>: <span class="pl-c1">true</span>
+      <span class="pl-ent">model_name</span>: <span class="pl-s">gpt-4</span>
+      <span class="pl-ent">input_function</span>:
+        <span class="pl-ent">description</span>: <span class="pl-c"><span class="pl-c">#</span> Description of the function</span>
+          <span class="pl-s">Given a tech startup business, generate a corresponding landing</span>
+          <span class="pl-s">page headline</span>
+        <span class="pl-ent">name</span>: <span class="pl-s">headline_generation_for_business</span>
+        <span class="pl-ent">parameters</span>:
+          <span class="pl-ent">tech_startup_business</span>: <span class="pl-s">str </span><span class="pl-c"><span class="pl-c">#</span> Parameter name and type</span>
+      <span class="pl-ent">number_of_examples</span>: <span class="pl-c1">3</span>
+      <span class="pl-ent">output_csv_path</span>: <span class="pl-s">generated_examples.csv</span>
+  <span class="pl-ent">source_type</span>: <span class="pl-s">machine_generated</span></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="description: Generate test data
+dataset:
+  data_generators:
+    openai_prompt_data_generator:
+      chunk_size: 100000
+      diversify: true
+      model_name: gpt-4
+      input_function:
+        description: # Description of the function
+          Given a tech startup business, generate a corresponding landing
+          page headline
+        name: headline_generation_for_business
+        parameters:
+          tech_startup_business: str # Parameter name and type
+      number_of_examples: 3
+      output_csv_path: generated_examples.csv
+  source_type: machine_generated" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执行 YiVal</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：从目录中运行以下命令</font></font><code>/YiVal/src/yival</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>yival run config_data_generation.yml</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="yival run config_data_generation.yml" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">检查生成的数据集</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：生成的测试数据集将存储在</font></font><code>generated_examples.csv</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></p>
+</li>
+</ol>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关 YiVal 的更多详细信息，</font><font style="vertical-align: inherit;">请参阅</font></font><a href="https://yival.github.io/YiValApi/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal 文档页面！</font></font></a><font style="vertical-align: inherit;"></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></h2><a id="user-content-demo" class="anchor" aria-label="永久链接：演示" href="#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<details open="" class="details-reset border rounded-2">
+  <summary class="px-3 py-2">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-device-camera-video">
+    <path d="M16 3.75v8.5a.75.75 0 0 1-1.136.643L11 10.575v.675A1.75 1.75 0 0 1 9.25 13h-7.5A1.75 1.75 0 0 1 0 11.25v-6.5C0 3.784.784 3 1.75 3h7.5c.966 0 1.75.784 1.75 1.75v.675l3.864-2.318A.75.75 0 0 1 16 3.75Zm-6.5 1a.25.25 0 0 0-.25-.25h-7.5a.25.25 0 0 0-.25.25v6.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-6.5ZM11 8.825l3.5 2.1v-5.85l-3.5 2.1Z"></path>
+</svg>
+    <span aria-label="视频说明 Translation.Bot.mp4" class="m-1"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">翻译.Bot.mp4</font></font></span>
+    <span class="dropdown-caret"></span>
+  </summary>
 
-<!-- markdownlint-disable-next-line MD013 -->
+  <video src="https://private-user-images.githubusercontent.com/80620352/285100311-f2438449-2c13-45d1-a660-a783c5ae4eb6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNDA4MjgsIm5iZiI6MTcxMjA0MDUyOCwicGF0aCI6Ii84MDYyMDM1Mi8yODUxMDAzMTEtZjI0Mzg0NDktMmMxMy00NWQxLWE2NjAtYTc4M2M1YWU0ZWI2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDAyVDA2NDg0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg5MGE4Njc4MGZhMWNkZDI5M2JmMjkwMDg4YzQ0YjQ3NTNkMjVmOTQxMTY0MWM4NzZkZDY0OGM3ZTY5MWI3YTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iOe2iCEGlgkNN8DMNcFoyujiNOWTKuSiYLMKppZj5nM" data-canonical-src="https://private-user-images.githubusercontent.com/80620352/285100311-f2438449-2c13-45d1-a660-a783c5ae4eb6.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNDA4MjgsIm5iZiI6MTcxMjA0MDUyOCwicGF0aCI6Ii84MDYyMDM1Mi8yODUxMDAzMTEtZjI0Mzg0NDktMmMxMy00NWQxLWE2NjAtYTc4M2M1YWU0ZWI2Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA0MDIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNDAyVDA2NDg0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg5MGE4Njc4MGZhMWNkZDI5M2JmMjkwMDg4YzQ0YjQ3NTNkMjVmOTQxMTY0MWM4NzZkZDY0OGM3ZTY5MWI3YTImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.iOe2iCEGlgkNN8DMNcFoyujiNOWTKuSiYLMKppZj5nM" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
 
-👉 Follow
-us: [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/YiValai.svg?style=social&label=Follow%20%40YiVal)](https://twitter.com/yivalloveaigc) |
-[![Discord](https://dcbadge.vercel.app/api/server/HnUWVW4kth?compact=true&style=flat)](https://discord.gg/HnUWVW4kth)
+  </video>
+</details>
 
-👉 Sponsored by Discord AIGC community:
-[![Discord](https://dcbadge.vercel.app/api/server/aigc?compact=true&style=flat)](https://discord.gg/aigc)
-
-[![License: MIT](https://img.shields.io/badge/License-Apache2.0-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub star chart](https://img.shields.io/github/stars/YiVal/YiVal?style=social)](https://star-history.com/#YiVal/YiVal)
-[![Open Issues](https://img.shields.io/github/issues-raw/YiVal/YiVal)](https://github.com/YiVal/YiVal/issues)
-
-## What is YiVal?
-
-**YiVal: Your Automatic Prompt Engineering Assistant for GenAI Applications**
-YiVal is a state-of-the-art tool designed to streamline the tuning process for
-your GenAI app prompts and **ANY** configs in the loop. With YiVal, manual adjustments
-are a thing of the past. This **data-driven and evaluation-centric** approach ensures
-optimal prompts, precise RAG configurations, and fine-tuned model parameters.
-Empower your applications to achieve
-**enhanced results, reduce latency, and minimize inference costs**
-effortlessly with YiVal!
-
-**Problems YiVal trying to tackle:**
-
-1. Prompt Development Challenge: "I can't create a better prompt. A score of 60
-   for my current prompt isn't helpful at all🤔."
-2. Fine-tuning Difficulty: "I don't know how to fine-tune; the terminology and
-   numerous fine-tune algorithms are overwhelming😵."
-3. Confidence and Scalability: "I learned tutorials to build agents from Langchain
-   and LlamaIndex, but am I doing it right? Will the bot burn through my money
-   when I launch? Will users like my GenAI app🤯?"
-4. Models and Data Drift: "Models and data keep changing; I worry a well-performing
-   GenAI app now may fail later😰."
-5. Relevant Metrics and Evaluators: "Which metrics and evaluators should I focus
-   on for my use case📊?"
-
-[Check out our quickstart guide!][1]
-
-[1]: https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/tutorial.md
-<img src="https://github.com/YiVal/YiVal/assets/1544154/dba5acd9-995c-45fd-9d08-c7cf198a77ad">
-
-### Link to demo
-
-**[Tiktok title autotune](http://ec2-35-85-28-134.us-west-2.compute.amazonaws.com:8074/enhancer-experiment-results)**
-
-## Installation
-
-### Docker Runtime
-
-Install Docker and pull ourimage on DockerHub:
-
-```bash
-docker pull yival/release:latest
-```
-
-Run our image:
-
-```bash
-docker run --it yival/release:latest
-```
-
-VSCode with Docker extension is recommended for running and developments. If you are developer using GPU with Pytorch, or need jupyter lab for data science:
-
-```bash
-docker pull yival/release:cu12_torch_jupyter
-docker run --gpus all --it -p 8888:8888 yival/release:cu12_torch_jupyter
-```
-
-### Prerequisites
-
-- **Python Version**: Ensure you have `Python 3.10` or later installed.
-- **OpenAI API Key**: Obtain an API key from OpenAI. Once you have the key, set
-  it as an environment variable named `OPENAI_API_KEY`.
-
-### Installation Methods
-
-#### Using pip (Recommended for Users)
-
-Install the `yival` package directly using pip:
-
-```bash
-pip install yival
-```
-
-#### Development Setup Using Poetry
-
-If you're looking to contribute or set up a development environment:
-
-1. **Install Poetry**: If you haven't already, [install Poetry](https://python-poetry.org/docs/#installation).
-2. **Clone the Repository, or use CodeSpace**:
-
-   2.1 **Use CodeSpace**
-   The easiest way to get YiVal enviornment. Click below to use the GitHub Codespace, then go to the next step.
-
-   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/YiVal/YiVal?quickstart=1)
-
-   2.2 **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/YiVal/YiVal.git
-   cd YiVal
-   ```
-
-3. **Setup with Poetry**: Initialize the Python virtual environment and install
-   dependencies using Poetry. Make sure to run the below cmd in `/YiVal` directory:
-
-   ```bash
-   poetry install --sync
-   ```
-
-## Trying Out YiVal
-
-After setting up, you can quickly get started with YiVal by generating datasets
-of random tech startup business names.
-
-### Steps to Run Your First YiVal Program
-
-1. **Navigate to the yival Directory**:
-
-   ```bash
-   cd /YiVal/src/yival
-   ```
-
-2. **Set OpenAI API Key**: Replace `$YOUR_OPENAI_API_KEY` with your
-   actual OpenAI API key.
-
-   On macOS or Linux systems,
-
-   ```bash
-   export OPENAI_API_KEY=$YOUR_OPENAI_API_KEY
-   ```
-
-   On Windows systems,
-
-   ```powershell
-   setx OPENAI_API_KEY $YOUR_OPENAI_API_KEY
-   ```
-
-3. **Define YiVal Configuration**:
-   Create a configuration file named `config_data_generation.yml` for automated
-   test dataset generation with the following content:
-
-   ```yaml
-   description: Generate test data
-   dataset:
-     data_generators:
-       openai_prompt_data_generator:
-         chunk_size: 100000
-         diversify: true
-         model_name: gpt-4
-         input_function:
-           description: # Description of the function
-             Given a tech startup business, generate a corresponding landing
-             page headline
-           name: headline_generation_for_business
-           parameters:
-             tech_startup_business: str # Parameter name and type
-         number_of_examples: 3
-         output_csv_path: generated_examples.csv
-     source_type: machine_generated
-   ```
-
-4. **Execute YiVal**:
-   Run the following command from within the `/YiVal/src/yival` directory:
-
-   ```bash
-   yival run config_data_generation.yml
-   ```
-
-5. **Check the Generated Dataset**:
-   The generated test dataset will be stored in `generated_examples.csv`.
-
-Please refer to [YiVal Docs Page](https://yival.github.io/YiValApi/) for more details about YiVal!
-
-## Demo
-
-[Demo Video](https://github.com/YiVal/YiVal/assets/80620352/f2438449-2c13-45d1-a660-a783c5ae4eb6)
-
-| Use Case Demo                                                                                               | Supported Features                                                                                                                                                                                                                                                                                                                                                                                                                                                                       | Github Link                                                                                                                                                               | Video Demo Link                                                                                                                                         |
-| ----------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 🐯 Craft your AI story with ChatGPT and MidJourney                                                          | **Multi-modal** support: Design an AI-powered narrative using YiVal's multi-modal support of simultaneous text and images. It supports native and seamless [Reinforcement Learning from Human Feedback](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)(RLHF) and [Reinforcement Learning from AI Feedback](https://arxiv.org/abs/2309.00267)(RLAIF). Please watch the video above for this use case.                                                          | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_midjourney_animal_story.ipynb)           |    [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/)                                                                                                                                                     |
-| 🌟 Evaluate performance of multiple LLMs with your own Q&A test dataset                                     | Conveniently**evaluate and compare** performance of your model of choice against 100+ models, thanks to [LiteLLM](https://github.com/BerriAI/litellm). Analyze model performance benchmarks tailored to your **customized test data** or use case.                                                                                                                                                                                                                              | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/model_compare.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/)                                                                                                                                                        |
-| 🔥 Startup Company Headline Generation Bot                                                                  | Streamline generation of headlines for your startup with automated test data**creation**, prompt **crafting**, results **evaluation**, and performance **enhancement** via GPT-4.                                                                                                                                                                                                                                                                                | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/headline_generation.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://github.com/YiVal/YiVal/assets/80620352/1a2916c1-de6a-452a-88e0-fb4461e7c04b) |
-| 🧳 Build a Customized Travel Guide Bot                                                                      | Leverage**automated prompts** inspired by the travel **community's** most popular suggestions, such as those from [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts).                                                                                                                                                                                                                                                                                      | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_prompt_retrieval.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/watch?v=rIggQqW4iAM)    |
-| 📖 Build a Cheaper Translator: Use GPT-3.5 to teach Llama2 to create a translator with lower inference cost | Using[Replicate](https://replicate.com/docs/guides/fine-tune-a-language-model) and GPT-3.5's test data, you can **fine-tune** Llama2's translation bot. Benefit from 18x savings while experiencing only a 6% performance decrease.                                                                                                                                                                                                                                                   | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_translator_demo.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://github.com/YiVal/YiVal/assets/80620352/f2438449-2c13-45d1-a660-a783c5ae4eb6) |
-| 🤖️ Chat with Your Favorite Characters - Dantan Ji from Till the End of the Moon                           | Bring your favorite characters to life through automated prompt creation and**character script retrieval**.                                                                                                                                                                                                                                                                                                                                                                        | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_auto_reply.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/watch?v=xD1G2Sl9UeU)                                         |
-| 🔍Evaluate guardrails's performance in generating Python(.py) outputs                                       | [Guardrails](https://github.com/ShreyaR/guardrails): where are my guardrails? 😭 `<br>`Yival: I am here. ⭐️`<br><br>`The **integrated evaluation** [experiment](https://github.com/ShreyaR/guardrails/issues/345) is carried out with 80 LeetCode problems in csv, using guardrail and using only GPT-4. The accuracy drops from 0.625 to 0.55 with guardrail, latency increases by 44%, and cost increases by 140%. Guardrail still has a long way to go from demo to production. | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/Guardrails_run_leetcode.ipynb) | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/watch?v=UMPxORBBTFI)                                        |
-| 🍨Visualize different foods around the world!🍱                                                             | Just give the place where the food belongs and the best season to taste it, and you can get a video of the season-specific food!🤩                                                                                                                                                                                                                                                                                                                                                       | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/place_food_demo.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/watch?v=qJj7zSXQbTI)                                        |
-| 🎈News article summary with CoD                                                                             | By integrating the[&#34;Chain of Density&#34;](https://huggingface.co/papers/2309.04269) method, **evaluate the enhancer's ability** in text summarization.🎆 Using **3** articles points generated by GPT-4 for evaluation, the coherent score increased by **20.03%**, the attributive score increased by **25.18%!**, the average token usage from **2054.6 -> 1473.4(-28.3%)** 🚀.                                                                        | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/news_summary_with_CoD.ipynb)           | [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/watch?v=W86Bct9k7fI)                                        |
-| 🥐 Automated TikTok Title Generation Bot                                                                    | With only two input lines, you can easily create**concise and polished** TikTok video titles based on your desired target audience and video content summaries. This is presented by our **auto-prompt feature**: the process is automated, so you can input your requirements and enjoy the results hassle-free!                                                                                                                                                            | [![Open In GitHub](https://img.shields.io/badge/Github-@YiVal-CAC6FC)](https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/Auto_TikTok_Title_Generation_Bots_Demo.ipynb)           |  [![Open In Youtube](https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&logoColor=red&labelColor=white)](https://www.youtube.com/)                                                                                                                                                       |
-
-## Contribution Guidelines
-
-If you want to contribute to YiVal, be sure to review
-the [contribution guidelines](https://yival.github.io/YiVal/contributing/).
-We use [GitHub issues](https://github.com/YiVal/YiVal/issues) for tracking
-requests and bugs.
-Please join [YiVal&#39;s discord channel](https://discord.gg/HnUWVW4kth) for
-general questions and discussion.
-Join our collaborative community where your unique expertise as researchers and
-software engineers is highly valued! Contribute to our project and be a part of
-an innovative space where every line of code and research insight actively
-fuels advancements in technology, fostering a future that is intelligently
-connected and universally accessible.
-
-## Contributors
-
+<table>
+<thead>
+<tr>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用例演示</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持的功能</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub 链接</font></font></th>
+<th><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频演示链接</font></font></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🐯 使用 ChatGPT 和 MidJourney 创作您的 AI 故事</font></font></td>
+<td><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多模式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持：使用 YiVal 对同步文本和图像的多模式支持来设计人工智能驱动的叙述。它支持本机无缝的</font></font><a href="https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人类反馈强化学习</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(RLHF) 和</font></font><a href="https://arxiv.org/abs/2309.00267" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人工智能反馈强化学习</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(RLAIF)。请观看上面的视频了解此用例。</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_midjourney_animal_story.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🌟 使用您自己的问答测试数据集评估多个法学硕士的表现</font></font></td>
+<td><font style="vertical-align: inherit;"><a href="https://github.com/BerriAI/litellm"><font style="vertical-align: inherit;">借助LiteLLM，</font></a><font style="vertical-align: inherit;">可以方便地</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您选择的模型的性能并将其与 100 多个模型进行比较</font><font style="vertical-align: inherit;">。分析根据您的</font><strong><font style="vertical-align: inherit;">定制测试数据</font></strong><font style="vertical-align: inherit;">或用例量身定制的模型性能基准。</font></font><a href="https://github.com/BerriAI/litellm"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/model_compare.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔥 初创公司头条生成机器人</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 GPT-4自动测试数据</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">创建</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、提示</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">制作</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、结果</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和性能</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增强，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">为您的初创公司简化头条新闻的生成。</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/headline_generation.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://github.com/YiVal/YiVal/assets/80620352/1a2916c1-de6a-452a-88e0-fb4461e7c04b"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🧳 构建定制的旅行指南机器人</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">利用</font><font style="vertical-align: inherit;">受旅行社</font><strong><font style="vertical-align: inherit;">区最受欢迎的建议启发</font></strong></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的自动提示</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，例如来自</font><a href="https://github.com/f/awesome-chatgpt-prompts"><font style="vertical-align: inherit;">Awesome-chatgpt-prompts 的建议</font></a><font style="vertical-align: inherit;">。</font></font><strong><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font><a href="https://github.com/f/awesome-chatgpt-prompts"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_prompt_retrieval.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/watch?v=rIggQqW4iAM" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📖 构建一个更便宜的翻译器：使用 GPT-3.5 教 Llama2 创建一个推理成本更低的翻译器</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用</font></font><a href="https://replicate.com/docs/guides/fine-tune-a-language-model" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Replicate</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和 GPT-3.5 的测试数据，您可以</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微调</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Llama2 的翻译机器人。受益于 18 倍的节省，同时性能仅下降 6%。</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_translator_demo.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://github.com/YiVal/YiVal/assets/80620352/f2438449-2c13-45d1-a660-a783c5ae4eb6"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤖️ 和你最喜欢的角色聊天——《直到月尽》中的季丹潭</font></font></td>
+<td><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过自动提示创建和角色脚本检索，</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">让您最喜爱的角色栩栩如生</font><font style="vertical-align: inherit;">。</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/yival_auto_reply.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/watch?v=xD1G2Sl9UeU" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🔍评估 Guardrails 在生成 Python(.py) 输出方面的性能</font></font></td>
+<td><a href="https://github.com/ShreyaR/guardrails"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">护栏</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：我的护栏在哪里？ √ </font></font><code>&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yival：我在这里。 ⭐️</font><strong><font style="vertical-align: inherit;">综合评估</font></strong><a href="https://github.com/ShreyaR/guardrails/issues/345" data-hovercard-type="issue" data-hovercard-url="/guardrails-ai/guardrails/issues/345/hovercard"><font style="vertical-align: inherit;">实验</font></a></font><code>&lt;br&gt;&lt;br&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是</font><font style="vertical-align: inherit;">用csv中的80个LeetCode问题进行的，使用guardrail并且仅使用GPT-4。有了护栏，精度从0.625下降到0.55，延迟增加44%，成本增加140%。 Guardrail从演示到量产还有很长的路要走。</font></font><strong><font style="vertical-align: inherit;"></font></strong> <a href="https://github.com/ShreyaR/guardrails/issues/345" data-hovercard-type="issue" data-hovercard-url="/guardrails-ai/guardrails/issues/345/hovercard"><font style="vertical-align: inherit;"></font></a><font style="vertical-align: inherit;"></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/Guardrails_run_leetcode.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/watch?v=UMPxORBBTFI" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🍨可视化世界各地不同的食物！🍱</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只要给出食物所属的地方和最佳品尝季节，就可以得到该季节美食的视频！🤩</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/place_food_demo.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/watch?v=qJj7zSXQbTI" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎈CoD 新闻文章摘要</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过整合</font></font><a href="https://huggingface.co/papers/2309.04269" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“密度链”</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">方法，</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估增强器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在文本摘要方面的能力。🎆 使用</font><font style="vertical-align: inherit;">GPT-4生成的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3篇文章点进行评估，连贯分数提高了</font></font></strong><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">20.03%</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，归因分数提高了</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">25.18%！</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，平均代币使用量从</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2054.6 -&gt; 1473.4(-28.3%)</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 🚀。</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/news_summary_with_CoD.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/watch?v=W86Bct9k7fI" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🥐 自动 TikTok 标题生成机器人</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">只需两行输入，您就可以</font><font style="vertical-align: inherit;">根据所需的目标受众和视频内容摘要轻松创建</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简洁、精美的</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TikTok 视频标题。这是由我们的</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自动提示功能</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">呈现的：该过程是自动化的，因此您可以输入您的要求并轻松享受结果！</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/tutorial_notebook/Auto_TikTok_Title_Generation_Bots_Demo.ipynb"><img src="https://camo.githubusercontent.com/9e216b87ab57f0cc6dfea1ac41d5bb22f793d48d15877b324ae8d0495607eff0/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769746875622d40596956616c2d434143364643" alt="在 GitHub 中打开" data-canonical-src="https://img.shields.io/badge/Github-@YiVal-CAC6FC" style="max-width: 100%;"></a></td>
+<td><a href="https://www.youtube.com/" rel="nofollow"><img src="https://camo.githubusercontent.com/9984ad56a41cb23e22eda2b264d04ed78446d67079621c27e6ba7a8aeb785ac5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5f2d4f70656e253230696e253230596f75747562652d7265643f6c6f676f3d796f7574756265266c6f676f436f6c6f723d726564266c6162656c436f6c6f723d7768697465" alt="在 YouTube 中打开" data-canonical-src="https://img.shields.io/badge/_-Open%20in%20Youtube-red?logo=youtube&amp;logoColor=red&amp;labelColor=white" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></h2><a id="user-content-contribution-guidelines" class="anchor" aria-label="永久链接：贡献指南" href="#contribution-guidelines"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想为 YiVal 做出贡献，请务必查看</font></font><a href="https://yival.github.io/YiVal/contributing/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。我们使用</font></font><a href="https://github.com/YiVal/YiVal/issues"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GitHub issues</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来跟踪请求和错误。请加入</font></font><a href="https://discord.gg/HnUWVW4kth" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal 的 Discord 频道</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">来解决一般问题和讨论。加入我们的协作社区，您作为研究人员和软件工程师的独特专业知识将受到高度重视！为我们的项目做出贡献，成为创新空间的一部分，每一行代码和研究见解都积极推动技术进步，培育智能连接和普遍可及的未来。</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献者</font></font></h2><a id="user-content-contributors" class="anchor" aria-label="永久链接：贡献者" href="#contributors"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <a href="https://github.com/YiVal/YiVal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=YiVal/YiVal" />
+  <img src="https://camo.githubusercontent.com/7b84ee7eb96a37c99afb7c269f8e0c0c83555879dc374525bd29b800210f857f/68747470733a2f2f636f6e747269622e726f636b732f696d6167653f7265706f3d596956616c2f596956616c" data-canonical-src="https://contrib.rocks/image?repo=YiVal/YiVal" style="max-width: 100%;">
 </a>  
-<p align="center">
-<br>
-🌟 YiVal welcomes your contributions! 🌟<p align="center">
-🥳 Thanks so much to all of our amazing contributors 🥳</p>
+<p align="center" dir="auto">
+<br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+🌟 YiVal 欢迎您的贡献！ 🌟</font></font></p><p align="center" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+🥳非常感谢我们所有出色的贡献者🥳</font></font></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文/算法实现</font></font></h2><a id="user-content-paper--algorithm-implementation" class="anchor" aria-label="永久链接：论文/算法实现" href="#paper--algorithm-implementation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<table>
+<thead>
+<tr>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">纸</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作者</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">主题</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal 贡献者</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">数据生成器</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">变异发生器</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">评估员</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">选择器</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">增强剂</font></font></strong></th>
+<th><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://arxiv.org/abs/2211.01910" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">大型语言模型是人类水平的提示工程师</font></font></a></td>
+<td><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhou,+Y" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">周永超</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Muresanu,+A+I" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安德烈·伊安·穆雷萨努</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Han,+Z" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">韩子文</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal Evolver，自动提示</font></font></td>
+<td></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/data_generators/openai_prompt_data_generator.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAIPrompt数据生成器</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/variation_generators/openai_prompt_based_variation_generator.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAIPromptVariationGenerator</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/openai_prompt_based_evaluator.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAIPromptEvaluator</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , </font></font><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/openai_elo_evaluator.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAIEloEvaluator</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/result_selectors/ahp_selection.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">层次分析法选择器</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/enhancers/openai_prompt_based_combination_enhancer.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAIPromptBasedCombinationEnhancer</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/configs/headline_generation_enhance.yml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></a></td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/1904.09675" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">BERTcore：使用 BERT 评估文本生成</font></font></a></td>
+<td><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Zhang,+T" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">张天一</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Kishore,+V" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Varsha Kishore</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wu,+F" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Felix Wu</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal 评估器、bertscore、rouge</font></font></td>
+<td><a href="https://github.com/crazycth"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@crazycth</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/bertscore_evaluator.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bert评分评估器</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+</tr>
+<tr>
+<td><a href="https://github.com/tatsu-lab/alpaca_eval"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">羊驼毛评估</font></font></a></td>
+<td><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Xuechen%20Li" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">李学辰</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Tianyi%20Zhang" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">张天一</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yann%20Dubois" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Yann Dubois</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。阿尔</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">YiVal评估器</font></font></td>
+<td></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/alpaca_eval_evaluator.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AlpacaEvalEvaluator</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/configs/alpaca_eval.yml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></a></td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/pdf/2309.04269.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密度链</font></font></a></td>
+<td><a href="https://arxiv.org/search/?query=Griffin+Adam" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">格里芬·亚当斯 (Griffin Adams)</font></font></a> <a href="https://arxiv.org/search/?query=Alexander+R.+Fabbri" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">亚历山大·R·法布里 (Alexander R. Fabbri)</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。阿尔</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">及时工程</font></font></td>
+<td></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/src/yival/variation_generators/chain_of_density_prompt.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">密度发生器链</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/master/demo/configs/summary_config.yml"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></a></td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2309.03409" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">作为优化器的大型语言模型</font></font></a></td>
+<td><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Yang,+C" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杨成润</font></font></a> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Wang,+X" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">王学智</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等.阿尔</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">及时工程</font></font></td>
+<td><a href="https://github.com/crazycth"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@crazycth</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/opro_implement/src/yival/enhancers/optimize_by_prompt_improver.py"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过提示增强器优化</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/opro_implement/demo/configs/headline_generation_improve.yml#L174"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></a></td>
+</tr>
+<tr>
+<td><a href="https://arxiv.org/abs/2106.09685" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LoRA：大型语言模型的低秩适应</font></font></a></td>
+<td><a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Hu,+E+J" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Edward J.胡</font></font></a> <a href="https://arxiv.org/search/cs?searchtype=author&amp;query=Shen,+Y" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">业龙沉</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。阿尔</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士微调</font></font></td>
+<td><a href="https://github.com/crazycth"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@crazycth</font></font></a></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/add_finetune_module/src/yival/finetune/sft_trainer.py#L40"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sft_训练器</font></font></a></td>
+<td><a href="https://github.com/YiVal/YiVal/blob/add_finetune_module/src/yival/schemas/trainer_configs.py#L48"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">配置</font></font></a></td>
+</tr>
+</tbody>
+</table>
 
-## Paper / Algorithm Implementation
-
-| **Paper**                                                                         | **Author**                                                                                                                                                                                                                                   | **Topics**                  | **YiVal Contributor**             | **Data Generator**                                                                                                       | **Variation Generator**                                                                                                                       | **Evaluator**                                                                                                                                                                                                                | **Selector**                                                                                 | **Enhancer**                                                                                                                              | **Config**                                                                                            |
-| --------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
-| [Large Language Models Are Human-Level Prompt Engineers](https://arxiv.org/abs/2211.01910) | [Yongchao Zhou](https://arxiv.org/search/cs?searchtype=author&query=Zhou,+Y), [Andrei Ioan Muresanu](https://arxiv.org/search/cs?searchtype=author&query=Muresanu,+A+I), [Ziwen Han](https://arxiv.org/search/cs?searchtype=author&query=Han,+Z)            | YiVal Evolver, Auto-Prompting     |  | [OpenAIPromptDataGenerator](https://github.com/YiVal/YiVal/blob/master/src/yival/data_generators/openai_prompt_data_generator.py) | [OpenAIPromptVariationGenerator](https://github.com/YiVal/YiVal/blob/master/src/yival/variation_generators/openai_prompt_based_variation_generator.py) | [OpenAIPromptEvaluator](https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/openai_prompt_based_evaluator.py), [OpenAIEloEvaluator](https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/openai_elo_evaluator.py) | [AHPSelector](https://github.com/YiVal/YiVal/blob/master/src/yival/result_selectors/ahp_selection.py) | [OpenAIPromptBasedCombinationEnhancer](https://github.com/YiVal/YiVal/blob/master/src/yival/enhancers/openai_prompt_based_combination_enhancer.py) | [config](https://github.com/YiVal/YiVal/blob/master/demo/configs/headline_generation_enhance.yml)              |
-| [BERTScore: Evaluating Text Generation with BERT](https://arxiv.org/abs/1904.09675)        | [Tianyi Zhang](https://arxiv.org/search/cs?searchtype=author&query=Zhang,+T), [Varsha Kishore](https://arxiv.org/search/cs?searchtype=author&query=Kishore,+V), [Felix Wu](https://arxiv.org/search/cs?searchtype=author&query=Wu,+F)                       | YiVal Evaluator, bertscore, rouge | [@crazycth](https://github.com/crazycth)   | -                                                                                                                              | -                                                                                                                                                   | [BertScoreEvaluator](https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/bertscore_evaluator.py)                                                                                                                          | -                                                                                                  | -                                                                                                                                               | -                                                                                                           |
-| [AlpacaEval](https://github.com/tatsu-lab/alpaca_eval)                                     | [Xuechen Li](https://arxiv.org/search/cs?searchtype=author&query=Xuechen%20Li), [Tianyi Zhang](https://arxiv.org/search/cs?searchtype=author&query=Tianyi%20Zhang), [Yann Dubois](https://arxiv.org/search/cs?searchtype=author&query=Yann%20Dubois) et. al | YiVal Evaluator                   | | -                                                                                                                              | -                                                                                                                                                   | [AlpacaEvalEvaluator](https://github.com/YiVal/YiVal/blob/master/src/yival/evaluators/alpaca_eval_evaluator.py)                                                                                                                       | -                                                                                                  | -                                                                                                                                               | [config](https://github.com/YiVal/YiVal/blob/master/demo/configs/alpaca_eval.yml)                              |
-| [Chain of Density](https://arxiv.org/pdf/2309.04269.pdf)                                   | [Griffin Adams](https://arxiv.org/search/?query=Griffin+Adam) [Alexander R. Fabbri](https://arxiv.org/search/?query=Alexander+R.+Fabbri) et. al                                                                                                          | Prompt Engineering                |  | -                                                                                                                              | [ChainOfDensityGenerator](https://github.com/YiVal/YiVal/blob/master/src/yival/variation_generators/chain_of_density_prompt.py)                        | -                                                                                                                                                                                                                                  | -                                                                                                  | -                                                                                                                                               | [config](https://github.com/YiVal/YiVal/blob/master/demo/configs/summary_config.yml)                           |
-| [Large Language Models as Optimizers](https://arxiv.org/abs/2309.03409)                    | [Chengrun Yang](https://arxiv.org/search/cs?searchtype=author&query=Yang,+C) [Xuezhi Wang](https://arxiv.org/search/cs?searchtype=author&query=Wang,+X) et. al                                                                                           | Prompt Engineering                | [@crazycth](https://github.com/crazycth)   | -                                                                                                                              | -                                                                                                                                                   | -                                                                                                                                                                                                                                  | -                                                                                                  | [optimize_by_prompt_enhancer](https://github.com/YiVal/YiVal/blob/opro_implement/src/yival/enhancers/optimize_by_prompt_improver.py)               | [config](https://github.com/YiVal/YiVal/blob/opro_implement/demo/configs/headline_generation_improve.yml#L174) |
-| [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)     | [Edward J. Hu](https://arxiv.org/search/cs?searchtype=author&query=Hu,+E+J) [Yelong Shen](https://arxiv.org/search/cs?searchtype=author&query=Shen,+Y) et. al                                                                                            | LLM Finetune                      | [@crazycth](https://github.com/crazycth)   | -                                                                                                                              | -                                                                                                                                                   | -                                                                                                                                                                                                                                  | -                                                                                                  | [sft_trainer](https://github.com/YiVal/YiVal/blob/add_finetune_module/src/yival/finetune/sft_trainer.py#L40)                                       | [config](https://github.com/YiVal/YiVal/blob/add_finetune_module/src/yival/schemas/trainer_configs.py#L48)     |
-
-<!--  -->
+</article></div>
